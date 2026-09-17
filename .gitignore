@@ -1,0 +1,43 @@
+# ---------- Compiled binaries ----------
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# `go build` dentro de un paquete deja un binario SIN extensión que toma el
+# nombre de su carpeta (ej. hw/hw). No hay patrón que los cace en bloque sin
+# arriesgarse a ignorar código, así que van uno por uno:
+/banner/banner
+/cart/cart
+/github/github
+/hw/hw
+/kill_server/kill_server
+/sha1/sha1
+
+# ---------- Artifacts ----------
+# kill_server/server.pid y similares
+*.pid
+*.log
+
+# ---------- Editor / IDE ----------
+# settings.json sí se versiona: lleva la config de gopls del proyecto
+.vscode/*
+!.vscode/settings.json
+.idea/
+*.bak
+*.swp
+*~
+
+# ---------- OS ----------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# macOS / Linux
+.DS_Store
+.fuse_hidden*
+
+# ---------- Material del curso ----------
+Material/
