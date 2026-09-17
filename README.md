@@ -97,3 +97,10 @@ Run it with the file absent to exercise the `fs.ErrNotExist` path.
 
 Compiled binaries, `*.pid` files and editor backups are excluded via
 [.gitignore](.gitignore).
+
+## Credits & License
+
+Exercises follow the **Practical Go Foundations** course by
+[Ardan Labs](https://www.ardanlabs.com/). Portions are derived from
+[ardanlabs/practical-go](https://github.com/ardanlabs/practical-go),
+licensed under Apache-2.0. Modified and extended as coursework by @andriu5.

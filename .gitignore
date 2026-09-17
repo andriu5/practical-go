@@ -19,11 +19,11 @@
 # kill_server/server.pid y similares
 *.pid
 *.log
+*.json
 
 # ---------- Editor / IDE ----------
 # settings.json sí se versiona: lleva la config de gopls del proyecto
 .vscode/*
-!.vscode/settings.json
 .idea/
 *.bak
 *.swp
