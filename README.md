@@ -16,8 +16,6 @@ from one module of the course.
 | [github/github.go](github/github.go) | REST APIs, JSON decoding, struct tags | ✅ |
 | [kill_server/kill_server.go](kill_server/kill_server.go) | Files, `defer`, error wrapping, `log/slog` | ✅ |
 | [sha1/sha1.go](sha1/sha1.go) | `io.Reader` / `io.Writer`, gzip, hashing | ✅ |
-| [cart/cart.go](cart/cart.go) | Slices: `len`, indexing | 🚧 |
-| `div/div.go` | Handling panics | ⬜ not started |
 
 ## What each exercise covers
 
